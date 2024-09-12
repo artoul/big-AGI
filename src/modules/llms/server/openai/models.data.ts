@@ -79,11 +79,11 @@ const _knownOpenAIChatModels: ManualMappings = [
     benchmark: { cbaElo: 1286 }
   },
   {
-    idPrefix: 'gpt-4o-2024-05-13',
-    label: 'GPT-4o (2024-05-13)',
+    idPrefix: 'o1-preview',
+    label: 'o1-preview',
     description: 'Advanced, multimodal flagship model that’s cheaper and faster than GPT-4 Turbo.',
     contextWindow: 128000,
-    maxCompletionTokens: 4096,
+    maxCompletionTokens: 14096,
     trainingDataCutoff: 'Oct 2023',
     interfaces: [LLM_IF_OAI_Chat, LLM_IF_OAI_Vision, LLM_IF_OAI_Fn, LLM_IF_OAI_Json],
     pricing: { chatIn: 5, chatOut: 15 },
